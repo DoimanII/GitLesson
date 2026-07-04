@@ -1,12 +1,12 @@
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Hi Git!')
+    print(f'Hi, {name}')
 
 def just_func():
-    pass
+    arr: list = [number for number in range(100+1)]
+    print(arr)
+
+if __name__ == '__main__':
+    print_hi('Hi Git!')
+    just_func()
+
