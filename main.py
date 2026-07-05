@@ -14,4 +14,4 @@ def just_func():
 if __name__ == '__main__':
     print_hi('Hi Git!')
     just_func()
-
+    print('code done')
